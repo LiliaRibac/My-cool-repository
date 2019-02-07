@@ -2,48 +2,125 @@
 <html>
 <head>
 	<title>All aabout me </title>
-	<style > 
+	<style>
+
 		.box1{
 			background-image: url("ImageLili.jpg");
 			background-size: cover;
-			width:60%;
+			width:68%;
 			height:100vh;
 			float: left;
-			margin-right:60px; 
+			margin-right:50px; 
+			margin-bottom:30px; 
+			margin-top: 25px;
+
+
 		}
 
 		h1{
 			color: black;
+			font-family: Arial;
+			margin-top: 130px;
+			text-transform: uppercase;
+
     		}
-    		h2{
+    		h3{
     			color:black;
+    			font-family: Arial;
+    			font-size: 12px
+    			
     		}
 
 		.content{
-			padding: 60px 50px;
+			/*padding: 60px 0px;*/
+			width: 20vw;
+			float: left;
+			margin: 30px;
 		}
+
 		ul {
             list-style-type: none;
-            margin: 0;
-  			padding: 0;
+            margin:0;
+            padding: 0;
 		}
-		li {
+		 li {
 
   			display: inline;
   			color:gray;
   			text-align: right;
-  			padding: 14px 16px;
+  			padding: 0px 5px;
+  			font-family: Arial;
+  			font-size: 5px;
+  			padding: 5px
+
+
 		}
 
 		li a{
 			color: gray;
 			text-decoration:none;
+			font-size: 12px;
+			
+
+
 		}
+
         .logo{
         	padding-right: 73vw;
+        }  
 
+        .button {
+        	background-color: #34731A; /* Green */
+  			border: none;
+  			color: white;
+ 		    padding: 5px 40px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 25px;
+            cursor: pointer;
+           width:170px;
+           float: center;
+           word-spacing: 5px;
+        }  
+        p {
+        	text-align: justify; 
+        	font-size: 100%;
+   	        }
 
-        }    
+   	    .header{
+   	        	font-size: 15px;
+   	        	text-transform: uppercase;
+   	        	font-weight: 200;
+   	        	letter-spacing: 2px;
+   	        	color:#999;
+
+   	        }
+   	           	       
+
+   	   
+   	  	.a {   	        	
+  	        
+   	        	font-size: 15px;
+   	        	font-family: Arial;
+   	        	text-align: left;
+   	        	color: black;
+   	        /*	margin-bottom: 200px*/
+   	          	  }    	
+  	  	.b {   	        	
+  	        
+   	        	font-size: 12px;
+   	        	font-family: Arial;
+   	        	text-align: left;
+   	        	color: black;
+   	        /*	margin-bottom: 200px*/
+   	          	  }    	
+  	  	     .iconImag{
+              width: 30px;
+             }
+             .imagList{
+              margin-top: 20px;
+             }
 	</style>
 </head>
 
@@ -56,13 +133,39 @@
 			<li><a href="https://about.me/Lilly.Ribac/getstarted">Get Started</a></li>
 		    <li><a href="https://about.me/features">Features</a></li>
 		    <li><a href="https://about.me/pricing">Pricing</a></li>	
+		    <li><a href="https://about.me/login">Log In</a></li>
         </ul>
 	</div>
   <div class="box1"></div>
   <div class="content">
    	<h1>Lilia Ribac</h1>
    	<h3>Student and Financial Services in Texas</h3>
-  </div>
+   	<a href="https://www.linkedin.com/in/lilia-ribac-810b69148/" class="button">Hire me</a>
+    <p>Hello, I’m Lilia. I’m a student living in Texas. I am a fan of design, arts, and reading. I’m also interested in web development and UX/UI. I spend my free time reading, hiking and doing Yoga.</p>
+    
+       <div>
+            <div class="header">Education</div>
+            <br>
+            <div class="b">Inventive Academy, in Austin</div>
+            <div class="b">Academy of Economic Studies in Moldova</div> 
+        </div>
+
+        <div>
+        	<ul class="imagList">
+        		<li style="line-height: 35px;">
+        			<a href="https://github.com/LiliaRibac" class="github">
+                  <img class="iconImag" src="GitHub.png">   
+              </a> 
+        		</li>
+              <li style="line-height: 35px;">
+            <a href="https://www.linkedin.com/in/lilia-ribac-810b69148/" class="linkedin">
+              <img class="iconImag" src="Link.png">
+            </a>
+          </li>
+        	</ul>
+        </div>
+
+
 </body>
 </html>
 
